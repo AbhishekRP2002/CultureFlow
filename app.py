@@ -11,10 +11,13 @@ from nlp_task.sentiment_analysis import (
     textsource_sentiment_analysis,
     sentiment_analysis,
 )
+
 from nlp_task.language_detection_translation import (
     langDetect,
     langTranslate)
 from nlp_task.contact_info_extraction import extractInfo
+
+from visualize import visualize
 from nlp_task.recommendation import (
     textsource_recommendation_analysis,
     recommend)
@@ -236,7 +239,7 @@ def main_nav():
               
     # Create the Visualization Dashboard page:
     elif menu == "Visualization Dashboard":
-        st.title("Visualization Dashboard")
+        visualize()
 
     # Create the Contact Us page:
     elif menu == "Contact Us":
