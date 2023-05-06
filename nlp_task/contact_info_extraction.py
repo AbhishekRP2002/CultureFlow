@@ -67,4 +67,4 @@ def extractInfo(file):
             numbers = extract_numbers(file)
             display_numbers(numbers)
         else:
-            st.write("Give valid file!")
+            st.write("Upload a  valid file!")
