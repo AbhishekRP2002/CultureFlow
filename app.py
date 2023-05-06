@@ -149,6 +149,8 @@ def main_nav():
                     "Contact Information Extraction",
                     "Summarize Company Data",
                 ],
+                help= "Choose an NLP task to perform",
+                
             )
 
             # sentiment analysis
