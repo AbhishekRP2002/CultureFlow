@@ -11,6 +11,7 @@ from nlp_task.sentiment_analysis import (
     textsource_sentiment_analysis,
     sentiment_analysis,
 )
+from visualize import visualize
 from nlp_task.recommendation import (
     textsource_recommendation_analysis,
     recommend)
@@ -190,7 +191,7 @@ def main_nav():
               
     # Create the Visualization Dashboard page:
     elif menu == "Visualization Dashboard":
-        st.title("Visualization Dashboard")
+        visualize()
 
     # Create the Contact Us page:
     elif menu == "Contact Us":

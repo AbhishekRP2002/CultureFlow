@@ -7,10 +7,10 @@ import streamlit.components.v1 as components
 from textblob import TextBlob
 import altair as alt
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-
+from dotenv import load_dotenv
 
 # Load the .env file
-# load_dotenv()
+load_dotenv()
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 completion = openai.ChatCompletion()
