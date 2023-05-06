@@ -11,9 +11,12 @@ from nlp_task.sentiment_analysis import (
     textsource_sentiment_analysis,
     sentiment_analysis,
 )
+
 from nlp_task.language_detection_translation import (
     langDetect,
     langTranslate)
+from nlp_task.contact_info_extraction import extractInfo
+
 from visualize import visualize
 from nlp_task.recommendation import (
     textsource_recommendation_analysis,
@@ -218,7 +221,11 @@ def main_nav():
              st.write("Performing Text Classification...")
       
         elif nlp_task == "Contact Information Extraction":
-             st.write("Performing Contact Info  Extraction...")
+             st.subheader("Extract Contact Numbers")
+             if st.button("Extract"):
+                  extractInfo(uploaded_file)
+                  
+
         elif nlp_task == "Summarize Company Data":
               st.subheader("Text Summarization on Textual Source")
               if st.button("Perform Text Summarization"):
