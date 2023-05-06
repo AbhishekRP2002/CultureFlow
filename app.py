@@ -181,7 +181,7 @@ def main_nav():
                     else:
                         st.error("Please upload a file first!")
 
-                st.subheader("Language Detection & Translation on Text Data")
+                st.subheader("Language Detection & Translation on Custom Text Input")
                 text = st.text_area("Enter text:",height=None,max_chars=None,key=None,help="Enter your text here")
                 
                 option1 = st.selectbox('Input language',

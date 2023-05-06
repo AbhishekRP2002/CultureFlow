@@ -13,14 +13,15 @@ from langchain.document_loaders.csv_loader import CSVLoader
 import os
 from langchain.vectorstores import FAISS
 import tempfile
+from dotenv import load_dotenv
 
 
 user_api_key = os.environ.get("OPENAI_API_KEY")
-os.environ["OPENAI_API_KEY"] = "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"
+# os.environ["OPENAI_API_KEY"] = "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"
 
 
 
-# load_dotenv()
+load_dotenv()
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 # Define the 'generate_response' function to send the user's message to the AI model 
