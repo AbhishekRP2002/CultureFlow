@@ -101,4 +101,4 @@ This will open a new browser window with the app. You can interact with the app 
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-[product-screenshot]dataset/img1.png
+[product-screenshot] : dataset/img1.png
