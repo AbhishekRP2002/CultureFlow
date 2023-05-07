@@ -2,7 +2,7 @@ altair==4.2.2
 gensim==4.1.2
 google_trans_new==1.1.9
 gTTS==2.3.2
-langchain==0.0.161
+langchain==0.0.16
 matplotlib==3.5.1
 openai==0.27.2
 openpyxl==3.0.9
