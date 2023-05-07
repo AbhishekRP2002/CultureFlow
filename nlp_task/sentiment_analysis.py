@@ -22,7 +22,7 @@ def textsource_sentiment_analysis(text):
         messages=[
             {
                 "role": "system",
-                "content": "You are a helpful AI assistant which will help the user to perform sentiment analysis on their text data provided.Analyse the sentiment and provide the result to the user. Display the reult in multiple formats. and show the words that are most positive and negative.",
+                "content": "You are a helpful AI assistant which will help the user to perform sentiment analysis on their text data provided.Analyse the sentiment and provide the result to the user. Display the reult in multiple formats. and show the words that are most positive and negative.Try to display the positive and negative words in a tabular format.",
             },
             {"role": "user", "content": text},
         ],

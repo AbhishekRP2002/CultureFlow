@@ -11,6 +11,9 @@ from nlp_task.sentiment_analysis import (
     textsource_sentiment_analysis,
     sentiment_analysis,
 )
+from nlp_task.context_indentify import (
+       textsource_classification_analysis,
+       context_analysis)
 from nlp_task.language_detection_translation import (
     langDetect,
     langTranslate)
@@ -77,7 +80,7 @@ text_data = ""
 
 
 def main_nav():
-    global sentiment_result , summarize_result , text_data , recommend_result
+    global sentiment_result , summarize_result , text_data , recommend_result , context_result , langDetect_result , langTranslate_result , extractInfo_result
     
 
     with st.sidebar:
@@ -146,7 +149,7 @@ def main_nav():
                     "Actionable Recommendations",
                     "Text Classification and Context Identification",
                     "Contact Information Extraction",
-                    "Summarize Company Data",
+                    "Summarize Your Data",
                 ],
                 help= "Choose an NLP task to perform",
                 
@@ -220,15 +223,24 @@ def main_nav():
             # recommend()
             
         elif nlp_task == "Text Classification and Context Identification":
-             st.write("Performing Text Classification...")
+             st.subheader("Contextual Topic Identification on Textual Source")
+             if st.button("Analyse"):
+                  context_result = textsource_classification_analysis(text_data)
+                  if context_result != "":
+                        
+                         st.write(context_result)
+                  else:
+                        st.error("Please upload a file first!")
+             st.subheader("Perform Contextual Topic  Analysis on Text Data")
+             context_analysis()
       
         elif nlp_task == "Contact Information Extraction":
-             st.subheader("Extract Contact Numbers")
+             st.subheader("Extract Contact Infromation from Textual Source")
              if st.button("Extract"):
-                  extractInfo(uploaded_file)
+                  extractInfo(text_data)
                   
 
-        elif nlp_task == "Summarize Company Data":
+        elif nlp_task == "Summarize Your Data":
               st.subheader("Text Summarization on Textual Source")
               if st.button("Perform Text Summarization"):
                     summarize_result = textsource_summarize_analysis(text_data)
@@ -270,7 +282,44 @@ def main_nav():
                 st.write(
                     "Thanks for your contacting us. We will respond to your questions or inquiries as soon as possible!"
                 )
+    
+    with st.sidebar:
+        st.error("The web app is under continuous development.Please check out our [Github repository](https://github.com/AbhishekRP2002/CultureFlow) for more details.")
+    
+#     footer="""<style>
+# a:link , a:visited{
+# color: white;
+# background-color: transparent;
+# text-decoration: none;
+# }
 
+# a:hover,  a:active {
+# color: blue;
+# background-color: transparent;
+# text-decoration: bold;
+# }
+
+# .footer {
+# position: fixed;
+# left: 0;
+# bottom: 0;
+# width: 100%;
+# background-color: #FF4B4B;
+# color: black;
+# display: flex;
+# flex-direction: row;
+# align-items: center;
+# text-align: center;
+# justify-content: center;
+# height: 50px;
+# color: white;
+# }
+# </style>
+# <div class="footer">
+# <p>Developed with ❤ by <a href="https://github.com/Siddhanthota" target="_blank">Team Alpha</a></p>
+# </div>
+# """
+#     st.markdown(footer,unsafe_allow_html=True)
 
 # Run the app:
 

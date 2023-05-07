@@ -193,7 +193,7 @@ showfileUploaderEncoding = true
 
 # Set to false to disable the deprecation warning for using the global pyplot instance.
 # Default: true
-showPyplotGlobalUse = true
+showPyplotGlobalUse = false
 
 
 [theme]
