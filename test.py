@@ -14,7 +14,7 @@ user_api_key = os.environ.get("OPENAI_API_KEY")
 
 def csv_chatbot():
    
-    uploaded_file = st.sidebar.file_uploader("upload", type="csv")
+    uploaded_file = st.sidebar.file_uploader("Upload your file", type="csv")
 
     if uploaded_file :
       st.info("Talk to your data with our AI chatbot")
