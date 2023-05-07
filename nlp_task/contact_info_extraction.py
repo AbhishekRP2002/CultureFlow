@@ -102,4 +102,4 @@ def extractInfo(file):
                         )
             
         else:
-            st.write("Give valid file!")
+            st.write("Upload a  valid file!")

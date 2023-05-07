@@ -18,8 +18,8 @@ def home():
         }
         .subtitle{
             text-align: center;
-            font-size: 45px;
-            font-weight: 700;
+            font-size: 35px;
+            font-weight: 300;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             padding : 0px;
             line-height: 1;
@@ -48,8 +48,8 @@ def home():
         <style>
         .mission-text{
             text-align: left;
-            font-size: 25px;
-            font-weight: 500;
+            # font-size: 20px;
+            # font-weight: 320;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.25;
             margin: 30px;
@@ -61,20 +61,20 @@ def home():
             
             }
             
-        .features{
+        .features-title{
              text-align: left;
-            font-size: 40px;
-            font-weight: 700;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-         
+            font-size: 30px;
+            # font-weight: 700;
+            font-family: 'Roboto', sans-serif;
+            text-align:center;
             line-height: 1;
             margin:30px 30px;
             }
             
             .features-text{
                 text-align: left;
-            font-size: 20px;
-            font-weight: 500;
+            # font-size: 20px;
+            # font-weight: 300;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.25;
             margin: 30px 30px;
@@ -102,8 +102,8 @@ def home():
        Our goal is to provide insights into a company's culture by analyzing various sources of textual data, such as employee reviews, feedback, and internal communication channels in order to prioritize building a strong company culture. We believe that a positive work environment fosters innovation, collaboration, and success.
       </div>
       
-      <div class="features">
-        How can you use CultureFlow?
+      <div class="features-title">
+      Why choose us?
       </div>
       
       <div class="features-text">
@@ -122,13 +122,14 @@ def home():
   
 
     features = {
-    "Sentiment Analysis": "Description of Feature 1...",
-    "Language Detection and Translation": "Description of Feature 2...",
-    "Actionable Recommendations": "Description of Feature 3...",
-    "Text Classification": "Description of Feature 4...",
-    "Context Identification": "Description of Feature 5...",
-    "Contact Information Extraction": "Description of Feature 6...",
-    "Summarization of Textual Source": "Description of Feature 7..."
+    "Sentiment Analysis": "Use our tool analyze the sentiment of the text data, determining whether the overall tone is positive, negative, or neutral  which will help identify areas of the company culture that may need improvement.",
+    "Language Detection and Translation": "Using our tool, you can analyze feedback from employees who speak different languages and identify any cultural or linguistic differences that may be contributing to attrition.",
+    "Actionable Recommendations": " Based on the insights gathered from the analysis and your data, our tool will provide actionable recommendations to improve company culture.",
+    "Text Classification and  Context Identification": "Use our tool  to identify key themes and trends in the text data related to company culture.",
+    "Contact Information Extraction": "Use our tool to extract contact information such as names, phone numbers, and email IDs of the stakeholders/employees responsible for culture building in the identified enterprises.",
+    "Text Summarization": "Use our summarization tool for company culture analytics because by condensing large amounts of text(Internal channel , employee feedback..) into a more concise and readable format and quickly identify common themes and issues that need to be addressed in order to improve company culture.",
+    "Visualization Dashboard": "Generate comprehensive reports and visualizations that provide insights into the culture-building conversations, including trends, patterns, and key findings with our visualization dashboard.",
+    "CultureFlow AI Chatbot": "Use our chatbot to get answers to your questions about company culture and how to improve it.",
 }
 
     for feature, description in features.items():
