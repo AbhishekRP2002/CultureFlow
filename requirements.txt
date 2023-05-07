@@ -14,7 +14,7 @@ spacy
 spacy_streamlit
 streamlit
 streamlit_chat==0.0.2.2
-streamlit_option_menu=
+streamlit_option_menu
 streamlit_pandas_profiling
 textblob
 vaderSentiment
