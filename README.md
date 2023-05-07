@@ -1,3 +1,8 @@
+
+ <h3 align="center">CultureFlow</h3>
+
+[![CultureFlow Screen Shot][product-screenshot]](https://example.com)
+
 ## Table of contents
 
 - [About The Project](#About-The-Project)
@@ -53,6 +58,7 @@ This will open a new browser window with the app. You can interact with the app 
 ## Demo
 Include a demo of your project, either as a GIF or a link to a live demo.
 
+
 ## Contributing
  Any contributions you make are **greatly appreciated**.
 
@@ -66,3 +72,4 @@ Include a demo of your project, either as a GIF or a link to a live demo.
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
+[product-screenshot]: dataset/img1.png
