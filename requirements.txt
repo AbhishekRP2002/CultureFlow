@@ -1,9 +1,9 @@
-altair==4.2.2
-gensim==4.1.2
-google_trans_new==1.1.9
-gTTS==2.3.2
-langchain==0.0.16
-matplotlib==3.5.1
+altair
+gensim
+google_trans_new
+gTTS
+langchain
+matplotlib
 openai
 Cython
 openpyxl
@@ -19,6 +19,6 @@ streamlit_option_menu
 streamlit_pandas_profiling
 textblob
 vaderSentiment
-wordcloud
+wordcloud==1.4
 # ydata_profiling==4.1.2
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0-py3-none-any.whl
