@@ -1,7 +1,7 @@
 
  <h3 align="center">CultureFlow</h3>
 
-[![CultureFlow Screen Shot][product-screenshot]](https://example.com)
+![CultutrFlow Home Page](/dataset/img1.png)
 
 ## Overview
 CultureFlow is a web-based platform that aims to provide insights into a company's culture by analyzing various sources of textual data, such as employee reviews, feedback, and internal communication channels. By prioritizing building a strong company culture, we believe that a positive work environment fosters innovation, collaboration, and success.
@@ -100,5 +100,3 @@ This will open a new browser window with the app. You can interact with the app 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-[product-screenshot] : dataset/img1.png
