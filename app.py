@@ -1,9 +1,9 @@
 #  Create a new Python file, e.g., `app.py`, and import the required libraries:
-
 import streamlit as st
 import pandas as pd
 import streamlit.components.v1 as html
 import streamlit.components.v1 as components
+import streamlit_option_menu
 from streamlit_option_menu import option_menu
 from nlp_task.chatBot import ai_assistant
 from nlp_task.about_app import about
