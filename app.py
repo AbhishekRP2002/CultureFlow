@@ -11,7 +11,6 @@ from nlp_task.sentiment_analysis import (
     textsource_sentiment_analysis,
     sentiment_analysis,
 )
-
 from nlp_task.language_detection_translation import (
     langDetect,
     langTranslate)

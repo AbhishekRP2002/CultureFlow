@@ -11,7 +11,6 @@ import tempfile
 
 
 user_api_key = os.environ.get("OPENAI_API_KEY")
-# os.environ["OPENAI_API_KEY"] = "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"
 
 def csv_chatbot():
    
