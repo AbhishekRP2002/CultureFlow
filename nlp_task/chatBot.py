@@ -17,8 +17,6 @@ from dotenv import load_dotenv
 
 
 user_api_key = os.environ.get("OPENAI_API_KEY")
-# os.environ["OPENAI_API_KEY"] = "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"
-
 
 
 load_dotenv()
@@ -46,8 +44,8 @@ def generate_response(prompt):
 # The 'new_topic_click' function is defined to reset the conversation history and introduce the AI assistant.
 def new_topic_click():
     st.session_state['prompts'] = [{"role": "system", "content": "You are an helpful AI assistant that could be used for company culture analytics and solutions.You are free to have open knowledge based conversations as well.You should be more engaging and interactive with the user. You can  collect or ask for feedback from employees on various aspects of company culture, such as communication, work-life balance, diversity and inclusion, and leadership. You could ask open-ended questions and use NLP techniques like sentiment analysis to analyze the responses and provide insights into areas of improvement.You can provide employees with learning and development opportunities that are aligned with the company's culture and values.You can help  to increase employee engagement by providing personalized recommendations based on an employee's interests and preferences"}]
-    st.session_state['past'] = []
-    st.session_state['generated'] = []
+    st.session_state['past_global'] = []
+    st.session_state['generated_global'] = []
     st.session_state['user'] = ""
     
     
@@ -57,8 +55,8 @@ def chat_click():
     if st.session_state['user']!= '':
         user_chat_input = st.session_state['user']
         output=generate_response(user_chat_input)
-        st.session_state['past'].append(user_chat_input)
-        st.session_state['generated'].append(output)
+        st.session_state['past_global'].append(user_chat_input)
+        st.session_state['generated_global'].append(output)
         st.session_state['prompts'].append({"role": "assistant", "content": output})
         st.session_state['user'] = ""
 
