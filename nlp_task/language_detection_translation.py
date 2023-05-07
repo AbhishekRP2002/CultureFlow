@@ -1,6 +1,5 @@
 from google_trans_new import google_translator # pip install google_trans_new==1.1.9
 import streamlit as st # pip install streamlit==0.82.0
-import gtts # pip install gtts
 import openai
 from dotenv import load_dotenv
 import os
