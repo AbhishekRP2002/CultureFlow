@@ -3,6 +3,9 @@
 
 [![CultureFlow Screen Shot][product-screenshot]](https://example.com)
 
+## Overview
+CultureFlow is a web-based platform that aims to provide insights into a company's culture by analyzing various sources of textual data, such as employee reviews, feedback, and internal communication channels. By prioritizing building a strong company culture, we believe that a positive work environment fosters innovation, collaboration, and success.
+
 ## Table of contents
 
 - [About The Project](#About-The-Project)
@@ -17,14 +20,31 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This is an NLP-based tool or app designed for culture analytics, built with the following key features:
+CultureFlow offers features and functionalities to help organizations improve their company culture through NLP analysis and reduction in attrition. Our platform provides the following features:
 
-* Language Detection & Translation: The app can detect the language of collected content and translate the text data into language of the user's choice.
-* Context Identification: Using NLP techniques like topic modeling and keyword extraction, the app can identify the context of web content and ensure accurate analysis of conversations in different regions.
-* Sentiment Analysis: The app applies sentiment analysis algorithms to identify positive, negative, or neutral sentiments expressed in conversations related to culture building.
-* Contact Information Extraction: Information extraction techniques are implemented to extract contact information such as names, phone numbers, and email IDs of stakeholders responsible for culture building in identified enterprises.
-* Reporting and Visualization: A dashboard is developed to generate comprehensive reports and visualizations that provide insights into culture-building conversations, including trends, patterns, and key findings.
-* Chatbot: A chatbot is integrated to enhance the user experience and allow for natural language interactions.
+### ```1. Sentiment Analysis```
+Analyze the sentiment of the text data, determining whether the overall tone is positive, negative, or neutral. This helps identify areas of the company culture that may need improvement.
+
+### ```2. Language Detection and Translation```
+Analyze feedback from employees who speak different languages and identify any cultural or linguistic differences that may be contributing to attrition.
+
+### ```3. Actionable Recommendations```
+Based on the insights gathered from the analysis and your data, our tool will provide actionable recommendations to improve company culture.
+
+### ```4. Text Classification and Context Identification```
+Identify key themes and trends in the text data related to company culture.
+
+### ```5. Contact Information Extraction```
+Extract contact information such as names, phone numbers, and email IDs of the stakeholders/employees responsible for culture building in the identified enterprises.
+
+### ```6. Text Summarization```
+Condense large amounts of text (internal channels, employee feedback, etc.) into a more concise and readable format. Quickly identify common themes and issues that need to be addressed in order to improve company culture.
+
+### ```7. Visualization Dashboard```
+Generate comprehensive reports and visualizations that provide insights into the culture-building conversations, including trends, patterns, and key findings.
+
+### ```8. CultureFlow AI Chatbot```
+Use our chatbot to get answers to your questions about company culture and how to improve it.
 
 The purpose of this app is to provide valuable insights into culture building for enterprises. With its powerful NLP techniques, the app can analyze conversations and identify key trends and patterns that can help enterprises make data-driven decisions. The app is user-friendly and intuitive, with a dashboard that provides easy-to-understand visualizations and reports. Additionally, the chatbot feature allows for natural language interactions, making it easy for users to access insights from data about the company.
 
@@ -57,7 +77,8 @@ To run the Streamlit app, execute the following command:
 This will open a new browser window with the app. You can interact with the app and explore its features.
 
 ## Demo
-Watch demo : [Video Link](https://www.loom.com/share/0d19c5b38f3b421fb4a6f62a84a6aaa9)
+- Watch demo : [Video Link](https://www.loom.com/share/0d19c5b38f3b421fb4a6f62a84a6aaa9)
+- Check out the project images to understand more : [Images](https://github.com/AbhishekRP2002/CultureFlow/tree/master/dataset)
 
 ## Future Improvements
 - Database Integration
@@ -74,8 +95,10 @@ Watch demo : [Video Link](https://www.loom.com/share/0d19c5b38f3b421fb4a6f62a84a
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-[product-screenshot]: dataset/img1.png
+[product-screenshot]dataset/img1.png
