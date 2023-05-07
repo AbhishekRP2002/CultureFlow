@@ -1,3 +1,8 @@
+
+ <h3 align="center">CultureFlow</h3>
+
+[![CultureFlow Screen Shot][product-screenshot]](https://example.com)
+
 ## Table of contents
 
 - [About The Project](#About-The-Project)
@@ -5,6 +10,7 @@
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [Demo](#demo)
+- [Future Improvements](#improvements)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -51,7 +57,13 @@ To run the Streamlit app, execute the following command:
 This will open a new browser window with the app. You can interact with the app and explore its features.
 
 ## Demo
-Include a demo of your project, either as a GIF or a link to a live demo.
+Watch demo : [Video Link](https://www.loom.com/share/0d19c5b38f3b421fb4a6f62a84a6aaa9)
+
+## Future Improvements
+- Database Integration
+- Role Based authentication 
+- Using LLM framework(like Langchain ) to improve the visualization dashboard
+- Gamification to increase employee/stakeholders interest
 
 ## Contributing
  Any contributions you make are **greatly appreciated**.
@@ -64,5 +76,6 @@ Include a demo of your project, either as a GIF or a link to a live demo.
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
+[product-screenshot]: dataset/img1.png
