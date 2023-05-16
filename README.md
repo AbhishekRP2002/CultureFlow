@@ -85,6 +85,7 @@ This will open a new browser window with the app. You can interact with the app 
 - Role Based authentication 
 - Using LLM framework(like Langchain ) to improve the visualization dashboard
 - Gamification to increase employee/stakeholders interest
+- Make contextual data visualization with Chat Interface(something like [this](https://www.vizgpt.ai/))
 
 ## Contributing
  Any contributions you make are **greatly appreciated**.
